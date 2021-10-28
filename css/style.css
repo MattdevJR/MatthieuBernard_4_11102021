@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 50px;
+    color: #F3976C!important;
 }
 
 .navbar {
@@ -438,6 +439,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 22px;
+    /*add font-size*/
 }
 
 .mg-lg {
@@ -558,6 +561,7 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+    
 }
 
 #lightbox-modal {
@@ -677,12 +681,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: 2.5rem auto auto auto;
+    font-size: 19px;
 }
 
 .h1 {
@@ -740,12 +745,14 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    margin: 0 auto 24px auto;/*Add for mobile version*/
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    margin: 0 auto;
 }
 
 .avatar {
@@ -753,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(151,134,87);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,6 +783,11 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-align: center;
+}
+
+#bloc-6 h1, #bloc-6 p{
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
@@ -818,13 +830,16 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("/img/la-chouette-agence-banniere.jpg");
+    /* object-fit: cover; */
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("/img/image-de-presentation.bmp");
 }
-
+#bloc-3-what-i-do h2{
+    color:#F3976C!important;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

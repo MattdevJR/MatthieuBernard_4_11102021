@@ -5290,6 +5290,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
         padding-top: 15px;
         padding-bottom: 15px
     }
+    .navbar-nav>li>a:hover{
+        font-weight: bold;
+        transition: border .2s ease-in-out;
+    }
 }
 
 .navbar-form {
@@ -7682,10 +7686,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;/*#000/9*/
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
