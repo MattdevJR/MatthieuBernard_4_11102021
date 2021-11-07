@@ -832,13 +832,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.webp");
     /* object-fit: cover;
     width: 100%; */
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation_compressed.jpg");
+    background-image: url("../img/image-de-presentation_compressed.webp");
 }
 #bloc-3-what-i-do h2{
     color:#FFF!important;
