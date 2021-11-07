@@ -81,7 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
-    content: "";
+    
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("/img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -439,8 +439,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 22px;
-    /*add font-size*/
+    font-size: 23px;
 }
 
 .mg-lg {
@@ -468,7 +467,7 @@ button {
 }
 
 .btn-rd {
-    border-radius: 40px;
+    border-radius: 15px;
 }
 
 .btn-clean {
@@ -681,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -708,6 +707,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
@@ -760,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(151,134,87);
+    background-color: rgb(151, 134, 87, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,21 +773,23 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+/* .bgc-dark-slate-blue {
+    background-color: #F3976C;
+    background-image: url("/img/texture-paper.png") ;
+    
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
     text-align: center;
 }
 
 #bloc-6 h1, #bloc-6 p{
-    color: black!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,23 +824,24 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("/img/texture-paper.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
     background-image: url("/img/la-chouette-agence-banniere.jpg");
-    /* object-fit: cover; */
+    /* object-fit: cover;
+    width: 100%; */
 }
 
 .bg-presentation {
     background-image: url("/img/image-de-presentation_compressed.jpg");
 }
 #bloc-3-what-i-do h2{
-    color:#F3976C!important;
+    color:#FFF!important;
 }
 @media (max-width: 1024px) {
     .bloc {

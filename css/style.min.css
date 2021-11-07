@@ -10,8 +10,8 @@ a:hover{text-decoration:none;cursor:pointer}
 .bg-b-edge,.bg-bl-edge,.bg-br-edge,.bg-center,.bg-l-edge,.bg-r-edge,.bg-repeat,.bg-t-edge,.bg-tl-edge,.bg-tr-edge{-webkit-background-size:auto!important;-moz-background-size:auto!important;-o-background-size:auto!important;background-size:auto!important}
 .bg-repeat{background:repeat}
 .bg-t-edge{background:top no-repeat}
-.bloc-bg-texture::before{content:"";background-size:2px 2px;position:absolute;top:0;bottom:0;left:0;right:0}
-.texture-paper::before{background:url(img/texture-paper.png);background-size:280px 280px}
+.bloc-bg-texture::before{background-size:2px 2px;position:absolute;top:0;bottom:0;left:0;right:0}
+.texture-paper::before{background:url(/img/texture-paper.png);background-size:280px 280px}
 .b-parallax{background-attachment:fixed}
 .d-bloc{color:rgba(255,255,255,.7)}
 .d-bloc button:hover{color:rgba(255,255,255,.9)}
@@ -70,13 +70,13 @@ nav .caret{margin:0 5px}
 .dropdown-menu .dropdown-menu{top:-8px;left:100%}
 .dropdown-menu .dropmenu-flow-right{top:100%;left:0;margin-left:-1px;border-top-left-radius:0;border-top-right-radius:0}
 .dropdown-menu .dropdown span{border:4px solid #000;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;margin:6px -5px 0 0!important;float:right}
-.mg-md{margin-top:10px;margin-bottom:20px;font-size:22px}
+.mg-md{margin-top:10px;margin-bottom:20px;font-size:23px}
 .mg-lg{margin-top:10px;margin-bottom:40px}
 .btn{margin:0 5px 5px 0}
 .btn.pull-right{margin:0 0 5px 5px}
 .btn-d,.btn-d:focus,.btn-d:hover{color:#fff;background:rgba(0,0,0,.3)}
 button{outline:0!important}
-.btn-rd{border-radius:40px}
+.btn-rd{border-radius:15px}
 .btn-clean{border:1px solid rgba(0,0,0,.08);border-bottom-color:rgba(0,0,0,.1);text-shadow:0 1px 0 rgba(0,0,1,.1);box-shadow:0 1px 3px rgba(0,0,1,.25),inset 0 1px 0 0 rgba(255,255,255,.15)}
 .icon-md{font-size:30px!important}
 .icon-lg{font-size:60px!important}
@@ -108,7 +108,7 @@ a[data-lightbox]:hover img{opacity:.6;-webkit-animation-fill-mode:none;animation
 .hero-bloc-text{font-size:38px}
 .hero-bloc-text-sub{font-size:36px}
 .statement-bloc-text{line-height:26px;font-style:italic;font-size:20px;text-align:center;font-weight:lighter;max-width:520px;margin:auto auto auto auto}
-p{font-size:15px}
+p{font-size:17px}
 .tight-width-whitespace{max-width:600px;margin:2.5rem auto auto auto;font-size:19px}
 .h1{font-size:20px;font-family:"Open Sans"}
 .cta-hero{margin-top:22px;color:#fff!important;text-transform:uppercase;padding:12px 28px 12px 28px;font-size:16px;font-weight:700}
@@ -123,13 +123,12 @@ h4{color:#333!important}
 .portfolio-thumb{margin:0 auto 24px auto}
 .portfolio-row{margin-bottom:44px;margin-top:50px;margin:0 auto}
 .avatar{box-shadow:0 4px 9px rgba(0,0,0,.3)}
-.black-background{background-color:#978657;padding:40px 40px 40px 40px}
+.black-background{background-color:rgb(151,134,87,.8);padding:40px 40px 40px 40px}
 .bold-link{font-weight:900;text-decoration:underline!important}
 .bgc-white{background-color:#fff}
-.bgc-dark-slate-blue{background-color:#364577}
 .bgc-atomic-tangerine{background-color:#f3976c}
-.tc-white{color:#f3976c!important;text-align:center}
-#bloc-6 h1,#bloc-6 p{color:#000!important}
+.tc-white{color:#fff!important;text-align:center}
+#bloc-6 h1,#bloc-6 p{color:#fff!important}
 .btn-atomic-tangerine{background:#f3976c;color:#fff!important}
 .btn-atomic-tangerine:hover{background:#c27956!important;color:#fff!important}
 .ltc-white{color:#fff!important}
@@ -137,11 +136,11 @@ h4{color:#333!important}
 .ltc-atomic-tangerine{color:#f3976c!important}
 .ltc-atomic-tangerine:hover{color:#c27956!important}
 .icon-dark-slate-blue{color:#364577!important;border-color:#364577!important}
-.bg-dots-bg{background-image:url(img/dots-bg.png)}
-.bg-lines-h2-bg{background-image:url(img/lines-h2-bg.png)}
+.bg-dots-bg{background-image:url(/img/texture-paper.png)}
+.bg-lines-h2-bg{background-image:url(../img/lines-h2-bg.png)}
 .bg-banniere{background-image:url(/img/la-chouette-agence-banniere.jpg)}
-.bg-presentation{background-image:url(/img/image-de-presentation.bmp)}
-#bloc-3-what-i-do h2{color:#f3976c!important}
+.bg-presentation{background-image:url(/img/image-de-presentation_compressed.jpg)}
+#bloc-3-what-i-do h2{color:#fff!important}
 @media (max-width:1024px){
 .bloc{padding-left:20px;padding-right:20px}
 .bloc-tile-2.full-width-bloc .container,.bloc-tile-3.full-width-bloc .container,.bloc-tile-4.full-width-bloc .container,.bloc.full-width-bloc{padding-left:0;padding-right:0}
