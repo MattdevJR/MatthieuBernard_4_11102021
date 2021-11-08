@@ -7,11 +7,11 @@ a:hover{text-decoration:none;cursor:pointer}
 .bloc-lg{padding:100px 50px}
 .bloc-md{padding:50px}
 .bloc-sm{padding:20px 50px}
-.bg-b-edge,.bg-bl-edge,.bg-br-edge,.bg-center,.bg-l-edge,.bg-r-edge,.bg-repeat,.bg-t-edge,.bg-tl-edge,.bg-tr-edge{-webkit-background-size:auto!important;-moz-background-size:auto!important;-o-background-size:auto!important;background-size:auto!important}
+.bg-b-edge,.bg-bl-edge,.bg-br-edge,.bg-center,.bg-l-edge,.bg-r-edge,.bg-repeat,.bg-t-edge,.bg-tl-edge,.bg-tr-edge{-moz-background-size:auto!important;-o-background-size:auto!important}
 .bg-repeat{background:repeat}
-.bg-t-edge{background:top no-repeat}
+.bg-t-edge{background:top no-repeat;background-size:100%}
 .bloc-bg-texture::before{background-size:2px 2px;position:absolute;top:0;bottom:0;left:0;right:0}
-.texture-paper::before{background:url(/img/texture-paper.png);background-size:280px 280px}
+.texture-paper::before{background:url(../img/texture-paper.png);background-size:280px 280px}
 .b-parallax{background-attachment:fixed}
 .d-bloc{color:rgba(255,255,255,.7)}
 .d-bloc button:hover{color:rgba(255,255,255,.9)}
@@ -150,19 +150,17 @@ h4{color:#333!important}
 .navbar .nav{max-width:80%}
 .nav-center.navbar .nav{max-width:100%}
 }
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
 .b-parallax{background-attachment:scroll}
 }
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5){
+@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5){
 .b-parallax{background-attachment:scroll}
 }
 @media (max-width:991px){
 .container{width:100%}
 .b-parallax{background-attachment:scroll}
 #hero-bloc,.page-container{overflow-x:hidden;position:relative}
-.bloc{padding-left:constant(safe-area-inset-left);padding-right:constant(safe-area-inset-right)}
 .bloc-group,.bloc-group .bloc{display:block;width:100%}
-.bloc-fill-screen .fill-bloc-bottom-edge,.bloc-fill-screen .fill-bloc-top-edge{padding:0 20px;padding-left:constant(safe-area-inset-left);padding-right:constant(safe-area-inset-right)}
 }
 @media (max-width:767px){
 .page-container{overflow-x:hidden;position:relative}
