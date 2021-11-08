@@ -773,14 +773,13 @@ h4 {
     background-color: #FFFFFF;
 }
 
-/* .bgc-dark-slate-blue {
-    background-color: #F3976C;
-    background-image: url("/img/texture-paper.png") ;
-    
-} */
+.footer-bloc{
+    margin-top: 130.5px;
+}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    
 }
 
 .tc-white {
@@ -835,6 +834,7 @@ h4 {
     background-image: url("../img/la-chouette-agence-banniere.webp");
     /* object-fit: cover;
     width: 100%; */
+    padding: 0;
 }
 
 .bg-presentation {

@@ -126,6 +126,7 @@ h4{color:#333!important}
 .black-background{background-color:rgb(151,134,87,.8);padding:40px 40px 40px 40px}
 .bold-link{font-weight:900;text-decoration:underline!important}
 .bgc-white{background-color:#fff}
+.footer-bloc{margin-top:130.5px}
 .bgc-atomic-tangerine{background-color:#f3976c}
 .tc-white{color:#fff!important;text-align:center}
 #bloc-6 h1,#bloc-6 p{color:#fff!important}
@@ -138,7 +139,7 @@ h4{color:#333!important}
 .icon-dark-slate-blue{color:#364577!important;border-color:#364577!important}
 .bg-dots-bg{background-image:url(/img/texture-paper.png)}
 .bg-lines-h2-bg{background-image:url(../img/lines-h2-bg.png)}
-.bg-banniere{background-image:url(../img/la-chouette-agence-banniere.webp)}
+.bg-banniere{background-image:url(../img/la-chouette-agence-banniere.webp);padding:0}
 .bg-presentation{background-image:url(../img/image-de-presentation_compressed.webp)}
 #bloc-3-what-i-do h2{color:#fff!important}
 @media (max-width:1024px){
