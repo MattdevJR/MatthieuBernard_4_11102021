@@ -113,7 +113,7 @@ p{font-size:17px}
 .tight-width-whitespace{max-width:600px;margin:2.5rem auto auto auto;font-size:19px}
 .h1{font-size:20px;font-family:"Open Sans"}
 .cta-hero{margin-top:22px;color:#fff!important;text-transform:uppercase;padding:12px 28px 12px 28px;font-size:16px;font-weight:700}
-.social{max-width:400px;margin:auto auto auto auto}
+.social{display:flex;justify-content:space-evenly;max-width:400px;margin:auto auto auto auto}
 h2{font-size:22px;line-height:1.4em}
 h3{font-size:15px;text-transform:uppercase;font-weight:700;color:#333!important}
 .med-width-whitespace{max-width:800px;margin:auto auto auto auto;box-shadow:0 0 0 #000}
