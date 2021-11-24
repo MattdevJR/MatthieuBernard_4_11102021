@@ -1,5 +1,6 @@
 // Blocs.js Minified
 function setUpSpecialNavs() {
+
     $(".navbar-toggle").click(function(t) {
         var e = $(this).closest("nav"),
             i = e.find("ul.site-navigation"),
@@ -190,6 +191,7 @@ function addLightBoxSwipeSupport() {
     })
 }
 $(document).ready(function() {
+    
     $("#scroll-hero").click(function(t) {
         t.preventDefault(), $("html,body").animate({
             scrollTop: $("#scroll-hero").closest(".bloc").height()
